@@ -140,3 +140,18 @@ input {
 .text-white {
   color: #fff;
 }
+.title {
+  font-size: 3.75rem;
+  font-weight: 600;
+}
+.main-title {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+.mb-4 {
+  margin-bottom: 4%;
+}
+
+.d-flex {
+  display: flex;
+}
