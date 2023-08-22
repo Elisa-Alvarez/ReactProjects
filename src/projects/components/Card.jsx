@@ -25,7 +25,7 @@ export default function Card() {
                 <small>DoggyDog</small>
                 <LuMenu/>
         </div>
-        <img src={DogPic} alt='profile photo of doggy dog' style={{ width: '98%', height:'fit-content'}} onDoubleClick={handleLikes} />
+        <img src={DogPic} alt='profile of doggy dog' style={{ width: '98%', height:'fit-content'}} onDoubleClick={handleLikes} />
         <div className="card-footer d-flex" style={{justifyContent:"space-between", height:"1.5rem", padding: '0.9rem'}}>
             <AiOutlineComment/>
             <Title text={"Likes "+ count} classes={"subtitle"}/>
